@@ -16,8 +16,6 @@
     background-position: center;
     justify-content: space-around;
 }
-
-
 .timer{
     width: 376.24px;
     height: 399.51px;
@@ -25,7 +23,6 @@
     margin-top: 36px;
     margin-bottom: 36px;
     margin-left:125.14px;
-
 }
 .level_bg{
     width: 200px;
@@ -35,7 +32,6 @@
     top: 99.7px;
     z-index: 0;
 }
-
 .Timmer_bg{
     width: 112px;
     height: 112px;
@@ -71,7 +67,6 @@
     color: deepskyblue;
     stroke-width: 90px;
 }
-
 .fill{
     object-fit:contain;
     position: absolute;
@@ -80,7 +75,6 @@
     top: 30px;
     left: 171px;
 }
-
 .wash{
     object-fit:contain;
     position: absolute;
@@ -89,7 +83,6 @@
     top: 180px;
     right: 25px;
 }
-
 .spin{
     object-fit:contain;
     position: absolute;
@@ -98,7 +91,6 @@
     top: 180px;
     left: 25px;
 }
-
 .rinse{
     object-fit:contain;
     position: absolute;
@@ -107,7 +99,6 @@
     bottom: 20px;
     left: 171px;
 }
-
 .tlabel1{
     color: white;  font-weight: 100; font-size: 20.3px;
     position: absolute;
@@ -131,12 +122,7 @@
     position: absolute;
     bottom: 1px;
     left: 165px;
-
 }
-
-
-
-
 .dial{
     width: 410.08px;
     height: 396.67px;
@@ -145,7 +131,6 @@
     margin-left: 117px;
     border:2px solid green;
 }
-
 .band{
     object-fit:contain;
     position: absolute;
@@ -163,8 +148,6 @@
     left: 92.33px;
     top: 108.9px;
     z-index: 3;
-
-
 }
 .band_grey{
     object-fit:contain;
@@ -175,7 +158,6 @@
     top: 70px;
     left: 70px
 }
-
 .selected_bg{
     object-fit:contain;
     position: absolute;
@@ -185,7 +167,6 @@
     left: 330px;
     top: 160px;
 }
-
 .ecowash{
     object-fit:contain;
     position: absolute;
@@ -313,10 +294,6 @@
     left: 155px;
     top: 50px;
 }
-
-
-
-
 .waterlevel{
     width: 160.07px;
     height: 386.85px;
@@ -325,15 +302,6 @@
     margin-left: 136.58px;
     border:2px solid blue;
 }
-/*.slider {*/
-/*    flex-direction: row;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    color: #2E2E2E;*/
-/*    */
-
-/*}*/
-
 .water_level{
     object-fit:contain;
     position: absolute;
@@ -350,7 +318,6 @@
     height: 320px;
     z-index: 1;
     right: 20px;
-
 }
 .wlabel{
     color: white;  font-weight: 500; font-size: 20.3px;
@@ -370,12 +337,6 @@
     left: 40px;
     top: 10px;
 }
-
-
-
-
-
-
 .temp{
     width: 189.76px;
     height: 342.02px;
@@ -384,7 +345,6 @@
     margin-bottom: 81.17px;
     margin-left: 100.55px;
 }
-
 .temperature_bg{
     object-fit:contain;
     position: absolute;
@@ -413,7 +373,6 @@
     z-index: 10;
     top: 340px;
 }
-
 .menut{
     width: 228.24px;
     height: 62.24px;
@@ -438,7 +397,6 @@
     top: 10px;
     left: 160px;
 }
-
 .menus{
     width: 62.24px;
     height: 62.64px;
@@ -452,7 +410,6 @@
     width: 100%;
     height: 100%;
 }
-
 .menub{
     position: absolute;
     width: 266.34px;
@@ -460,7 +417,6 @@
     border:2px solid purple;
     top: 277.09px;
     right: 86.36;
-    
 }
 .power{
     position: absolute;
@@ -486,11 +442,9 @@
     top: 65px;
     left: 175px;
 }
-
 .plabel2{
     color: white;   font-weight: 100 ;font-size: 13.3px;
     z-index: 10;
     top: 65px;
     right: 10px;
-
 }

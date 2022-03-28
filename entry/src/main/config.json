@@ -1,7 +1,7 @@
 {
   "app": {
-    "bundleName": "com.example.smart_wash_library",
-    "vendor": "example",
+    "bundleName": "com.ohos.lib.smart.wash",
+    "vendor": "smartwash",
     "version": {
       "code": 1000000,
       "name": "1.0.0"

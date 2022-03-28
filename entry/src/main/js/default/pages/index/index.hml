@@ -1,19 +1,16 @@
-<element src="../../../../../../../smartwash/js/index.hml" name="test"></element>
 <div class="container">
     <div class="full">
         <div class="timer">
             <image class="level_bg" src="/common/images/level_bg.png"></image>
             <image class="Timmer_bg" src="/common/images/Timer_bg.png"></image>
-            <div class="centered"><text>0:30</text></div>
-            <progress class="min-progress" type="ring" percent= "40" ></progress>
+            <div class="centered"><text>00:{{timer}}</text></div>
+            <progress for="{{cbar}}"class="min-progress" type="ring" percent= "{{$item.timerValue}}" ></progress>
             <image class="indication_point" src="/common/images/indication_point.png"></image>
-
             <image src="/common/images/fill.png"class="fill"></image>
             <image src="/common/images/wash.PNG"class="wash"></image>
             <image src="/common/images/spin.PNG"class="spin"></image>
             <image src="/common/images/rinse.PNG"class="rinse"></image>
-            
-            <text class="tlabel1">Fill</text>
+            <text class="tlabel1">{{fill}}</text>
             <text class="tlabel2">Spin</text>
             <text class="tlabel3">Wash</text>
             <text class="tlabel4">Rinse</text>
@@ -40,14 +37,9 @@
             <text class="dlabel6">Quick</text>
             <text class="dlabel7">Spin</text>
             <text class="dlabel8">Eco Wash</text>
-
         </div>
 
         <div class="waterlevel">
-<!--            <image src="/common/images/water_level.PNG" class="wl"></image>-->
-<!--            <div class="slider">-->
-<!--                <slider min="0" max="100" value="{{value}}" onchange="setvalue" ></slider>-->
-<!--            </div>-->
             <image src="/common/images/water_level_bg.png" class="water_level_bg"></image>
             <image src="/common/images/water_level.png" class="water_level"></image>
             <text class="wlabel">Water level</text>
@@ -59,10 +51,7 @@
                                  — 2
                                  — 1</text>
             <text class="wlabel2">Full</text>
-
-
         </div>
-
         <div class="temp">
             <image src="/common/images/temperature_bg.png" class="temperature_bg"></image>
             <image src="/common/images/temperature.png"class="temperature"></image>
@@ -72,13 +61,9 @@
                                  —
                                  — Cold</text>
             <text class="tlabel">Temperature</text>
-
-
-
         </div>
-
         <div class="menut">
-            <text class="time">10:00 PM</text>
+            <text class="time">{{time}}</text>
             <image src="/common/images/time_bg.png" class="time_bg"></image>
             <image src="/common/images/wifi.png" class="wifi"></image>
         </div>
