@@ -1,7 +1,7 @@
 {
   "app": {
-    "bundleName": "com.ohos.lib.smart.wash",
-    "vendor": "smartwash",
+    "vendor": "example",
+    "bundleName": "com.example.smartwash",
     "version": {
       "code": 1000000,
       "name": "1.0.0"
@@ -9,20 +9,11 @@
   },
   "deviceConfig": {},
   "module": {
-    "package": "com.example.smart_wash_library",
-    "name": ".MyApplication",
-    "mainAbility": "com.example.smart_wash_library.MainAbility",
+    "mainAbility": ".MainAbility",
     "deviceType": [
       "phone",
-      "tablet",
-      "tv"
+      "tablet"
     ],
-    "distro": {
-      "deliveryWithInstall": true,
-      "moduleName": "entry",
-      "moduleType": "entry",
-      "installationFree": true
-    },
     "abilities": [
       {
         "skills": [
@@ -35,23 +26,37 @@
             ]
           }
         ],
-        "name": "com.example.smart_wash_library.MainAbility",
+        "orientation": "unspecified",
+        "visible": true,
+        "srcPath": "MainAbility",
+        "name": ".MainAbility",
+        "srcLanguage": "js",
         "icon": "$media:icon",
-        "description": "$string:mainability_description",
-        "label": "$string:entry_MainAbility",
+        "description": "$string:MainAbility_desc",
+        "formsEnabled": false,
+        "label": "$string:MainAbility_label",
         "type": "page",
         "launchType": "standard"
       }
     ],
+    "distro": {
+      "moduleType": "entry",
+      "installationFree": false,
+      "deliveryWithInstall": true,
+      "moduleName": "entry"
+    },
+    "package": "com.example.entry",
+    "srcPath": "",
+    "name": ".entry",
     "js": [
       {
         "pages": [
           "pages/index/index"
         ],
-        "name": "default",
+        "name": ".MainAbility",
         "window": {
           "designWidth": 720,
-          "autoDesignWidth": true
+          "autoDesignWidth": false
         }
       }
     ]

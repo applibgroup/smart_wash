@@ -1,0 +1,81 @@
+<div class="container">
+    <div class="full">
+        <div class="timer">
+            <image class="level_bg" src="{{ level_bg }}"></image>
+            <image class="Timmer_bg" src="{{ timmer_bg }}"></image>
+            <div class="centered">
+                <text>00:{{ timer }}</text>
+            </div>
+            <progress for="{{ cbar }}" class="min-progress" type="ring" percent="{{ $item.timerValue }}"></progress>
+            <image class="indication_point_rinse" src="{{ indication_point_rinse }}"></image>
+            <image src="{{ fill_img }}" class="fill" id="fill_img" onclick="fill_imgclick"></image>
+            <image src="{{ wash_img }}" class="wash" onclick="wash_imgclick"></image>
+            <image src="{{ spin_img }}" class="spin" onclick="spin_imgclick"></image>
+            <image src="{{ rinse_img }}" class="rinse" onclick="rinse_imgclick"></image>
+            <text class="tlabel1">{{ fill }}</text>
+            <text class="tlabel2">{{ spin }}</text>
+            <text class="tlabel3">{{ wash }}</text>
+            <text class="tlabel4">{{ rinse }}</text>
+        </div>
+        <div class="dial">
+            <image src="{{ band_cotton }}" class="band_cotton"></image>
+            <image src="{{ band_bg }}" class="band_bg"></image>
+            <image src="{{ band_grey }}" class="band_grey"></image>
+            <image src="{{ selected_bg }}" class="selected_bg"></image>
+            <image src="{{ ecowash_img }}" class="ecowash" onclick="ecowash_imgclick"></image>
+            <image src="{{ wool_img }}" class="wool" onclick="wool_imgclick"></image>
+            <image src="{{ cotton_img }}" class="cotton" onclick="cotton_imgclick"></image>
+            <image src="{{ quick_img }}" class="quick" onclick="quick_imgclick"></image>
+            <image src="{{ rinse1_img }}" class="rinse1" onclick="rinse1_imgclick"></image>
+            <image src="{{ spin1_img }}" class="spin1" onclick="spin1_imgclick"></image>
+            <image src="{{ mix_img }}" class="mix" onclick="mix_imgclick"></image>
+            <image src="{{ delicates_img }}" class="delicates" onclick="delicates_imgclick"></image>
+            <text class="dlabel1">{{ delicates }}</text>
+            <text class="dlabel2">{{ mix }}</text>
+            <text class="dlabel3">{{ cotton }}</text>
+            <text class="dlabel4">{{ rinse }}</text>
+            <text class="dlabel5">{{ wool }}</text>
+            <text class="dlabel6">{{ quick }}</text>
+            <text class="dlabel7">{{ spin }}</text>
+            <text class="dlabel8">{{ ecowash }}</text>
+        </div>
+        <div class="waterlevel">
+            <image src="{{ water_level_bg }}" class="water_level_bg"></image>
+            <image src="{{ water_level }}" class="water_level"></image>
+            <text class="wlabel">{{ wlabel }}</text>
+            <text id="wlevel7" onclick="wlevel7click">{{ wlevel7 }}</text>
+            <text id="wlevel6" onclick="wlevel6click">{{ wlevel6 }}</text>
+            <text id="wlevel5" onclick="wlevel5click">{{ wlevel5 }}</text>
+            <text id="wlevel4" onclick="wlevel4click">{{ wlevel4 }}</text>
+            <text id="wlevel3" onclick="wlevel3click">{{ wlevel3 }}</text>
+            <text id="wlevel2" onclick="wlevel2click">{{ wlevel2 }}</text>
+            <text id="wlevel1" onclick="wlevel1click">{{ wlevel1 }}</text>
+            <text class="wlabel2">{{ wlabel2 }}</text>
+        </div>
+        <div class="temp">
+            <image src="{{ temperature_bg }}" class="temperature_bg"></image>
+            <image src="{{ temperature }}" class="temperature"></image>
+            <text id="tlevelh" onclick="tlevelhclick">{{ tlevelh }}</text>
+            <text id="tlevelhw" onclick="tlevelhwclick">{{ tlevelhw }}</text>
+            <text id="tlevelw" onclick="tlevelwclick"> {{ tlevelw }}</text>
+            <text id="tlevelwc" onclick="tlevelwcclick">{{ tlvelwc }}</text>
+            <text id="tlevelc" onclick="tlevelcclick">{{ tlevelc }}</text>
+            <text class="tlabel">{{ tlabel }}</text>
+        </div>
+        <div class="menut">
+            <text class="time">{{ time }}</text>
+            <image src="{{ time_bg }}" class="time_bg"></image>
+            <image src="{{ wifi }}" class="wifi"></image>
+        </div>
+        <div class="menus">
+            <image src="{{ settings }}" class="settings"></image>
+        </div>
+        <div class="menub">
+            <image src="{{ poweri }}" class="power"></image>
+            <text class="plabel1">{{ power }}</text>
+            <image src="{{ play }}" onclick="pauseplayclick()" class="play"></image>
+            <text class="plabel2">{{ pause }}</text>
+        </div>
+    </div>
+</div>
+
